@@ -262,6 +262,12 @@
 				
 				
 			?>
+			<br />
+			<br />
+			<form method="post" action="generate_code.php">
+			  <input type="text" name="qr_text" value="<?php echo $unqid; ?>" readonly>
+			  <input type="submit" name="generate_text" value="Generate">
+			</form>
 			
 			
 				
